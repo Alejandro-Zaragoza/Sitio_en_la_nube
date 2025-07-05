@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sitio Web en la nube</title>
+  <style>
+    /* General */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('fondo.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #333;
+    }
+
+    .contenedor {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      height: 70px;
+    }
+
+    header h1 {
+      margin-left: 40px;
+      font-size: 2em;
+      color: #005fa3;
+    }
+
+    /* Main */
+    main {
+      margin-bottom: 30px;
+    }
+
+    main p {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    main a {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    main a:hover {
+      background-color: #005fa3;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 2px solid #ddd;
+      padding-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      font-size: 0.95em;
+    }
+
+    footer div {
+      line-height: 1.6;
+    }
+
+    footer strong {
+      color: #005fa3;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .contenedor {
+        padding: 20px;
+        margin: 20px;
+      }
+
+      main a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <header>
+      <img src="Logo.png" alt="Logo del sitio">
+        <h1>Sitio Web en la Nube</h1> 
+    </header>
+
+    <main>
+      <h2>Unidad 3. Desarrollo de aplicaciones web en los servicios de la nube</h2>
+      <p>Enlace a video para plataformas de streaming:</p>
+      <a href="https://www.youtube.com/watch?v=sLTNgxxSBR4" target="_blank">Ver video en YouTube</a>
+    </main>
+
+    <footer>
+      <div>
+        <strong>Alumno:</strong><br>
+        · Daniel Alejandro Zepeda Zaragoza
+      </div>
+      <div>
+        <strong>Registro:</strong><br>
+        · 221352136
+      </div>
+      <div>
+        <strong>Carrera:</strong><br>
+        · Ing. Informática
+      </div>
+      <div>
+        <strong>Asignatura:</strong><br>
+        · Conceptualización de servicios en la nube
+      </div>
+      <div>
+        <strong>Asesor:</strong><br>
+        · Paulo César Gómez Sánchez
+      </div>
+      <div>
+        <strong>Fecha:</strong><br>
+        · 04/07/2025
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
